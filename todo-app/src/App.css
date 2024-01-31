@@ -1,17 +1,28 @@
 body{
-  background-color: #1f1e1e;
+  height: 100%;
+  width: 100%;
+  background-image:url("mount.avif") ;
   color: white;
-  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1{
   text-align: center;
+  font-size:  90px; 
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: #4173e0;
+  text-shadow: 0 1px 0 lightblue, 0 5px 0 black,
+
+  0 20px 30px rgba(0, 0, 0, 0.5);
 }
 
 
+
+
 .todo-wrapper{
-  background-color: #353434;
-  padding: 2%;
+  background-color: rgba(0, 8, 252, 0);
+  padding: 5%;
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
@@ -30,6 +41,7 @@ h1{
   border-bottom: 1px solid rgb(77, 77, 77);
   padding-bottom: 25px;
   margin-bottom: 25px;
+  border-radius: 10px;
   
 }
 
@@ -53,16 +65,16 @@ h1{
 }
 
 .todo-input-item input:focus{
-  outline: 2px solid rgb(0, 230, 122);
+  outline: 2px solid rgb(204, 85, 170);
 }
 
 
 
 
 .primary-btn{
-  background-color: rgb(0, 230, 122);
+  background-color: rgba(202, 200, 38, 0.706);
   color: white;
-  border-radius: 0px;
+  border-radius: 50px;
   border: none;
   margin-top: 25px;
   padding: 10px;
@@ -80,8 +92,8 @@ h1{
 
 
 .secondaryBtn{
-  background-color: rgb(92, 92, 92);
-  color: white;
+  background-color: rgba(140, 185, 249, 00.02);
+  color: blanchedalmond;
   border-radius: 0px;
   border: none;
   padding: 10px;
@@ -132,18 +144,18 @@ h1{
 }
 
 .icon:hover{
-  color: red;
+  color: rgb(140, 60, 60);
 
 }
 
 .check-icon{
   font-size: 22px;
   cursor: pointer;
-  color: rgb(0, 230, 122);
+  color: rgb(231, 224, 27);
   margin-left: 10px;
   margin-bottom: 5px;
 }
 
 .check-icon:hover{
-  color: rgb(4, 192, 104);
+  color: rgb(231, 224, 27);
 }
